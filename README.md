@@ -2,7 +2,7 @@
 This strategy is applied on Future Dow30EMini on hourly basis. Signals are generated when the price break previous high or low. A trailing stop loss strategy is done by simply applying Average True Range
 
 # Objective
-The objective of writing this strategy is to test if the turtle strategy still works since its invention by the legendary commodity traders Richard Dennis.  
+The objective of writing this strategy is to take some of the strategy from turtle strategy and test if it still works nowadays. 
 
 # Signals Generation
 A buy signal is generated when the price breaks previous high within 20 days with a bullish candlestick. Similarly, a sell signal is generated if price breaks previous low within 20 days with a bearish candlestick.
